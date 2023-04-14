@@ -3,8 +3,8 @@ import CV from '../../assets/Resume Sol Gutierrez.pdf'
 const CTA = () => {
   return (
     <div className='CTA'>
-        <a href={CV} download>Download CV</a>
-        <a href="#contact">Contact me!</a>
+        <a href={CV} download className='btn'>Download CV</a>
+        <a href="#contact" className='btn btn-primary'>Contact me!</a>
     </div>
   )
 }
