@@ -107,7 +107,10 @@ img {
     object-fit: cover;
 }
 
-/* MEDIA QUERIES */
+/* ========= MEDIA QUERIES ========= */
+
+/* ========= MEDIUM DEVIECS ========= */
+
 
 @media screen and (max-width: 1024px) {
     .container {
@@ -118,6 +121,8 @@ img {
         margin-top: 6rem;
     }
 }
+
+/* ========= SMALL DEVIECS ========= */
 
 @media screen and (max-width: 600px) {
     .container {
